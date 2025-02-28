@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eda95ca3ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mis-estilos.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <section class="ingreso">
+        <div class="container">
+            <h1 class="titulo">Ingresa a la Aplicación</h1>
+            <img src="./imagenes/usuarios.png" alt="" class="personas">
+        </div>
+
+
+
+        <div class="formlogin">  
+            <form>
+                <div class="formm">
+                    <i class="icono fa-solid fa-user"></i>
+                    <input type="usuario" name="usuario" placeholder="Usuario" required>
+                </div>
+                <div class="formm">
+                    <i class="icono fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="Contraseña" required> 
+                </div>
+                <button type="submit">LOGIN</button>
+            </form>
+        </div>
+
+
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+        </div>
+
+        <div class="links">
+            <a href="#">¿Olvidaste tu contaseña?</a>
+            <a href="#">Regístrate</a>
+        </div>
+    </section>
+
+
 </body>
 </html>

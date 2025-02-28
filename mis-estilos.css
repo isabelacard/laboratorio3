@@ -1,3 +1,58 @@
 *{
     font-family: "Nunito", serif;
 }
+
+body{
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.ingreso{
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.titulo{
+    padding-top: 30px;
+}
+
+/* FORM */
+
+.formlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formm{
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.formm input{
+    width: 90%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc ;
+    border-radius: 25px;
+    outline: none;
+}
+
+.formm .icono{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: darkgray;
+}
+
+
