@@ -13,7 +13,7 @@ body{
 .ingreso{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 550px;
     width: 600px;
     background-color: white;
     border-radius: 20px;
@@ -24,7 +24,8 @@ body{
 
 
 .titulo{
-    padding-top: 40px;
+    padding-top: 25px;
+    font-weight: 800;
 }
 
 /* FORM */
@@ -67,6 +68,10 @@ button{
     border: none;
 }
 
+button:hover{
+    opacity: 0.5;
+}
+
 /* ICONOS */
 
 .icons{
@@ -99,5 +104,9 @@ button{
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 30px;
+    font-size: 13px;
+}
+
+a{
     text-decoration: none;
 }
